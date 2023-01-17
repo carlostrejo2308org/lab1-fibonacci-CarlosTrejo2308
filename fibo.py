@@ -6,6 +6,6 @@ def fibo(x):
   return fibo(x-1) + fibo(x-2)
 
 # Get input
-x = input()
+x = int(input())
 
 print(fibo(x))
